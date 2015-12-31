@@ -9,4 +9,6 @@ web:
   links:
    - redis
 redis:
+  # ports:
+  #   - ${PORT_TCP_REDIS}:6380
   image: redis
