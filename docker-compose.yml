@@ -1,9 +1,10 @@
 web:
   # build: .
-  image: lcdapp
+  image: $IMAGE
   ports:
     # - 5000:5000
-   - "${WEB_PORT}:5000"
+   - $WEB_PORT:5000
+  #  - $HTTP_PORT:5000
   # volumes:
   #  - .:/code
   links:
