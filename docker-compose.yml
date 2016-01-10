@@ -11,6 +11,6 @@ web:
    - redis
 redis:
   ports:
-    - 6380:6380
+    - 6379:6379
   #   - ${PORT_TCP_REDIS}:6380
   image: redis
